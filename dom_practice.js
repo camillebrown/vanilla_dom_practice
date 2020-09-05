@@ -17,3 +17,8 @@ listItems[2].style.color = "mediumorchid"
 
 listItems[3].innerText="Jamboree sandwich at the Jambo-ree"
 
+const newImg = document.createElement("img")
+newImg.setAttribute('src', "westchester-playground.jpg")
+
+const container = document.querySelector('.container')
+container.appendChild(newImg)
