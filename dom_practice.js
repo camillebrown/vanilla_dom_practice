@@ -15,3 +15,5 @@ const listItems = document.querySelectorAll('li')
 
 listItems[2].style.color = "mediumorchid"
 
+listItems[3].innerText="Jamboree sandwich at the Jambo-ree"
+
