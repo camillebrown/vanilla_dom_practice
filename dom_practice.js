@@ -26,3 +26,5 @@ container.appendChild(newImg)
 const fullList = document.querySelector("ol")
 
 fullList.style.color = "salmon"
+
+newImg.remove()
