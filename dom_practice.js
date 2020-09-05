@@ -13,7 +13,7 @@ console.log(containerElements)
 
 const listItems = document.querySelectorAll('li')
 
-listItems[2].style.color = "mediumorchid"
+// listItems[2].style.color = "mediumorchid"
 
 listItems[3].innerText="Jamboree sandwich at the Jambo-ree"
 
@@ -22,3 +22,7 @@ newImg.setAttribute('src', "westchester-playground.jpg")
 
 const container = document.querySelector('.container')
 container.appendChild(newImg)
+
+const fullList = document.querySelector("ol")
+
+fullList.style.color = "salmon"
