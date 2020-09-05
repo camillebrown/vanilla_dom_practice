@@ -7,3 +7,11 @@ let h2 = document.querySelector("h2")
 console.log(h2)
 
 h2.innerText="Welcome to Westchester, LA!!!"
+
+let containerElements = document.getElementsByClassName("container")
+console.log(containerElements)
+
+const listItems = document.querySelectorAll('li')
+
+listItems[2].style.color = "mediumorchid"
+
